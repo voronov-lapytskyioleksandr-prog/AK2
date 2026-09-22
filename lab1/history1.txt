@@ -1,0 +1,107 @@
+  904  clear
+  905  uname -a
+  906  sudo apt update
+  907  cat /etc/apt/sources.list
+  908  cat /etc/apt/sources.list.d/ubuntu.sources
+  909  sudo apt install vim -y
+  910  cd ~
+  911  cd ~/Downloads
+  912  man ls
+  913  ls -la
+  914  dpkg -i test.deb
+  915  sudo dpkg -i test.deb
+  916  cd /
+  917  sudo -i
+  918  echo "hi all"
+  919  echo "$PWD hi all here!"
+  920  touch hi.sh
+  921  sudo touch hi.sh
+  922  echo $PATH
+  923  vi hi.sh
+  924  ./hi.sh
+  925  chmod +x hi.sh
+  926  sudo chmod +x hi.sh
+  927  chmod 777 hi.sh
+  928  sudo chmod 777 hi.sh
+  929  ./hi.sh
+  930  ./hi.sh Ukraine
+  931  cp scripts Documents
+  932  mkdir -p scripts && cp hi.sh scripts/
+  933  sudo mkdir -p scripts && cp hi.sh scripts/
+  934  sudo chown -R $USER:$USER scripts && cp hi.sh scripts/
+  935  ls scripts/
+  936  cp scripts Documents
+  937  cp -r scripts Documents
+  938  sudo cp -r scripts Documents
+  939  cd scripts
+  940  ls
+  941  mv hi.sh ..
+  942  sudo mv hi.sh ..
+  943  ls
+  944  cd ..
+  945  ls
+  946  cd Documents
+  947  ls
+  948  cd ..
+  949  rm scripts
+  950  sudo rm -r scripts
+  951  ls
+  952  cd /bin
+  953  ls -la
+  954  cd ../..
+  955  sudo tar -cvzf scripts.tar.gz Documents
+  956  ls
+  957  cat hi.sh
+  958  cat /var/log/dpkg.log
+  959  tail -n 20 /var/log/dpkg.log
+  960  less /var/log/dpkg.log
+  961  cd /
+  962  find . -name dhcp 2>/dev/null
+  963  find . -name "*dhcp*" 2>/dev/null
+  964  find . -iname "*dhcp*" 2>/dev/null | grep --color=always -i dhcp
+  965  find . -iname "*dhcp*" 2>/dev/null | grep --color=always -i etc
+  966  ping -c 4 google.com
+  967  ping google.com > ping.log &
+  968  cd
+  969  sudo ping google.com > ping.log &
+  970  sudo ping -c 4 google.com
+  971  totem &
+  972  ls -la
+  973  cd /bin
+  974  ls
+  975  echo $PATH
+  976  printenv
+  977  whoami
+  978  cd /etc
+  979  ls
+  980  cd ..
+  981  cd lib
+  982  ls
+  983  dmesg
+  984  sudo dmesg 
+  985  ls /dev
+  986  sudo dmesg -C
+  987  sudo dmesg | tail
+  988  df -h
+  989  cd /home
+  990  ls -la
+  991  lsmod
+  992  cd /proc
+  993  cat cpuinfo
+  994  echo 1 > /proc/sys/net/ipv4/ip_forward
+  995  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+  996  sudo -i
+  997  cd ~
+  998  echo "vika" > 1.txt
+  999  cat 1.txt
+ 1000  echo "vasya" > 2.txt
+ 1001  cat 2.txt
+ 1002  diff 1.txt 2.txt
+ 1003  history
+ 1004  lspci
+ 1005  history
+ 1006  history | tail -n 101
+ 1007  history | tail -n 100
+ 1008  history | tail -n 103
+ 1009  history | tail -n 107
+ 1010  whoami; date; history | tail -n 107 > history1.txt

@@ -1,0 +1,10 @@
+  905  fg
+  906  ps aux | grep ping
+  907  kill 21623
+  908  kill 12064
+  909  ps aux | grep ping
+  910  kill 21623
+  911  sudo kill -9 21623
+  912  sudo killall vi
+  913  history 
+  914  whoami; date; history | tail -n 10 > history2.txt
