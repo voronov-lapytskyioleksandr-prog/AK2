@@ -1,3 +1,0 @@
-/workspaces/AK2/lab2/CMakeFiles/lab2_app.dir
-/workspaces/AK2/lab2/CMakeFiles/edit_cache.dir
-/workspaces/AK2/lab2/CMakeFiles/rebuild_cache.dir
